@@ -3,16 +3,19 @@
 This project is to practice web scraping, using github, and machine learning.
 
 So far there are two web scrapers in development:
-1. Real estate web scraper that gathers homes for sale off a canadian website points2homes 
-  - Homes are grabbed in the winnipeg area
-  - then each home is scraped for details such as number of rooms, bathrooms, square footage etc.
-2. Web scraper that grabs the top 100 software development jobs in Victoria
-  - jobs are grabbed from indeed.com
-  - rating and company and job title are displayed
+1. Real estate web
+  - Homes for sale are grabbed in the winnipeg area from point2homes.com (No affiliation)
+  - Each home is scraped for details such as number of rooms, bathrooms, square footage etc.
+  
+2. Software Jobs (No planned upgrades)
+  - Software developer jobs are grabbed from indeed.com
+  - Rating, company name and job title are scraped
+  - Possibly add tracking to see how long it takes to fill job
 
-
-No further work is played for the job web scraper.
-
-Planned work for the real estate scraper is to:
-- aggregate data into a machine learning input file
-- create a neural network that accepts home parameters and outputs expected market price
+#TODO:
+- [ ] Scrape links of top 1000 homes for sale
+- [ ] Decide what home data should be gathered
+- [ ] Aggregate data into single file
+- [ ] Create basic neural network 
+- [ ] Optimize neural network
+- [ ] Determine how much to sell your house for!
